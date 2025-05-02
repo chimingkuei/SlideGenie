@@ -167,7 +167,6 @@ namespace SlideGenie
                                 @"D:\Chimingkuei\repos\SlideGenie\Testing dataset\Image\Processed\3.bmp"
                             }
                         };
-
                         string savePath = @"D:\Chimingkuei\repos\SlideGenie\Testing dataset\簡報1.pptx";
                         Core slide = new Core();
                         slide.BuildSlide(titles, imageGroups, savePath);
